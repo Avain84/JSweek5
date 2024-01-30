@@ -386,6 +386,7 @@ body {
 .ticketCard-description {
   color: #818A91;
   margin-bottom: 32px;
+  word-break: break-all;
 }
 
 .ticketCard-info {
