@@ -125,6 +125,7 @@ addTicketbtn.addEventListener("click",e => {
     data.push(addData);
   }else{
     alert("請確認是否所有資料都有正確輸入");
+    return ;
   }
   showAndChange(data);
   ticketName.value = null;
